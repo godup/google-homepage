@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html>
+<head> 
+<style> 
+header{
+    
+    font-size: 12px;
+    font-family: sans-serif;
+    display: flex;
+    flex-direction: row;
+   background:cadetblue;
+}
+
+footer{
+    font-size: 16px;
+    font-family: sans-serif;
+    display: flex;
+    flex-direction: row;
+    background:blanchedalmond;
+    margin-top: 5%;
+    margin-bottom: 0px;
+}
+
+footer .flex-about{
+    background-color: blue;
+   justify-content: flex-start;
+   flex-grow: 2;
+}
+
+footer .flex-terms{
+    background-color: brown;
+    margin-left: 50%;
+    justify-content: flex-end;
+    flex-grow: 3;
+}
+
+header .gmail-link{
+    margin-left: 80%;
+    margin-top: 1.5%;
+    margin-bottom: 1%;
+    color:black;
+    background:blue;
+}
+header .image-link{
+    margin-left: 2%;
+    margin-top: 1.5%; 
+    margin-bottom: 1%;
+    color: black;
+    background:chartreuse;
+}
+
+header .button-link{
+    margin-left: 3%;
+    margin-top: 1.0%;
+  
+    }
+a{
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: underline;
+    color:white;
+}
+
+header .sign-button{
+    height: 40px;
+    width: 80px;
+    margin-left: 3%;
+    padding: auto;
+    font-size: 14px;
+    border-radius: 8%;
+    color: white;
+    border-color: #1a73e8;
+    background-color: #1a73e8;
+    border: 1px solid transparent;
+}
+
+.google-lang{
+    margin-top: 5%;
+    color: black;
+    font-size: small;
+    font-family: arial,sans-serif;
+}
+
+.lang-link{
+    margin-left: 2%;
+    color: #609;
+}
+
+footer .footer-link{
+    margin-left: 2%;
+    color: #70757a;
+}
+
+lang-link:hover{
+    text-decoration: underline;
+   }
+.google-searchdiv{
+    margin-top: 2%;
+    margin-left: 10%;
+}
+.google-searchbutton{
+    height: 40px;
+    width: 100px;
+    padding: auto;
+    font-size: 14px;
+    font-family: arial,sans-serif;
+    border-radius: 4%;
+    color: #3c4043;
+    border-color: #f8f9fa;
+    border: 1px solid #f8f9fa;
+}
+
+.google-luckbutton{
+    height: 40px;
+    width: 100px;
+    margin-left: 5%;
+    padding: auto;
+    font-size: 14px;
+    font-family: arial,sans-serif;
+    border-radius: 4%;
+    color: #3c4043;
+    border-color: #f8f9fa;
+    border: 1px solid #f8f9fa;
+}
+a .google-luckbutton:hover{
+    box-shadow: 0 1px 1px rgba(0,0,0,.1);
+    background-color: #f8f9fa;
+    border: 1px solid #dadce0;
+    color: #202124;
+}
+
+a .google-searchbutton:hover{
+    box-shadow: 0 1px 1px rgba(0,0,0,.1);
+    background-color: #f8f9fa;
+    border: 1px solid #dadce0;
+    color: #202124;
+}
+
+a .sign-button:hover{
+    background: #2b7de9;
+    box-shadow: 0 1px 2px 0 rgba(66,133,244,0.3), 0 1px 3px 1px rgba(66,133,244,0.15);
+    }
+
+h1{
+    font-size: 10px;
+    font-family: sans-serif;
+    color: blue;
+    text-align: center;
+    margin-left: 45%;
+    margin-right: 45%;
+    margin-top: 10%;
+    }
+
+.google-div{
+    background-color: black;
+
+    }
+
+.google-img{
+    margin-top: 10%;
+    margin-left: 45%;
+    margin-right: 45%;
+    width: 20%;
+    height: 15%;
+    object-fit: contain;
+}
+
+.google-searchbar{
+    background-color: transparent;
+    border-radius: 10%;
+    border-color: grey;
+    margin-top: 2%;
+    margin-left: 30%;
+    height: 34px;
+    width: 50%;
+    font-size: 16px;
+   }
+
+</style>
+</head>
+
+<body>
+<header>
+<div class="gmail-link">
+<a href='#'>Gmails</a>
+</div>
+<div class="image-link">
+ <a href = '#'> Image </a>
+</div>
+    <div class="button-link">
+        <a href='#'>
+            <button class="sign-button">
+            Sign in
+            </button>
+        </a>
+    </div>
+</header>
+
+    <img class = "google-img" src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="google logo">
+    <br>
+    <input class = "google-searchbar" type="text" placeholder="search word">
+    <div class ="google-searchdiv">
+        <center>
+        <a href='#'>   <button class = "google-searchbutton">Google Search</button>
+      <button class = "google-luckbutton">I feel lucky today</button></a>
+        </center>
+    </div>
+<div class = "google-lang">
+    <center>
+    Google offered in: <a class ="lang-link" href='#'>Hausa</a> <a class ="lang-link" href='#'>Igbo</a> <a class ="lang-link" href='#'>Yoruba</a> <a class ="lang-link" href='#'>Nigerian Pigin</a>
+    </center>
+</div>
+
+<footer>
+    <hr>
+ <div class ="flex-about"><a class ="footer-link" href='#'>About</a> <a class ="footer-link" href='#'>Advertersing</a> <a class ="footer-link" href='#'>Business</a> <a class ="footer-link" href='#'>How Search works</a></div> <div class = "flex-terms"><a class = "footer-link" href='#'>Privacy</a> <a class ="footer-link" href='#'>Terms</a> <a class = "footer-link" href='#'>Settings</a></div>
+</footer>
+</body>
+
+</html>

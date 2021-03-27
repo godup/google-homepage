@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head> 
+<style> 
+.headerdiv{
+    display: flex;
+    justify-content: flex-end;
+}
+
+</style>
+</head>
+
+<body>
+<div class="headerdiv">
+Gmail
+</div>
+</body>
+
+</html>
